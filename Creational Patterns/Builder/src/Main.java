@@ -1,3 +1,6 @@
+/**
+ * @author sofiyan
+ */
 public class Main {
     public static void main(String[] args) {
         Human human = new Human("Sofiyan", 24, 85, "Male", "Asian");

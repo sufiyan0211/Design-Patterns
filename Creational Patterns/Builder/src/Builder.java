@@ -1,3 +1,6 @@
+/**
+ * @author sofiyan
+ */
 public interface Builder {
     Builder setName(String name);
 
