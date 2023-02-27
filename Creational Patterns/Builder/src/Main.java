@@ -20,5 +20,10 @@ public class Main {
                 .setWeight(79)
                 .setRace("Asian")
                 .build();
+
+        Human human3 = new EmployeeBuilder()
+                .setName("Arjun")
+                .setGender("Male")
+                .build();
     }
 }

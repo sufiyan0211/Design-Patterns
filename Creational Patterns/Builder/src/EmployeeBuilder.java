@@ -1,35 +1,35 @@
-public class HumanBuilder implements Builder {
+public class EmployeeBuilder implements Builder{
     public String name;
     public int age;
     public int weight;
     public String gender;
     public String race;
 
-    public HumanBuilder() {
+    public EmployeeBuilder() {
     }
 
     @Override
-    public HumanBuilder setName(String name) {
+    public EmployeeBuilder setName(String name) {
         this.name = name;
         return this;
     }
 
-    public HumanBuilder setAge(int age) {
+    public EmployeeBuilder setAge(int age) {
         this.age = age;
         return this;
     }
 
-    public HumanBuilder setWeight(int weight) {
+    public EmployeeBuilder setWeight(int weight) {
         this.weight = weight;
         return this;
     }
 
-    public HumanBuilder setGender(String gender) {
+    public EmployeeBuilder setGender(String gender) {
         this.gender = gender;
         return this;
     }
 
-    public HumanBuilder setRace(String race) {
+    public EmployeeBuilder setRace(String race) {
         this.race = race;
         return this;
     }
