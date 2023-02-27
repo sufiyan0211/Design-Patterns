@@ -1,6 +1,7 @@
 /**
  * @author sofiyan
  */
+
 public class HumanBuilder implements Builder {
     public String name;
     public int age;
