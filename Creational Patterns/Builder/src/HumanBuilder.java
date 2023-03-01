@@ -1,3 +1,5 @@
+import java.security.PublicKey;
+
 /**
  * @author sofiyan
  */
@@ -8,8 +10,13 @@ public class HumanBuilder implements Builder {
     public int weight;
     public String gender;
     public String race;
+    public HumanListBuilder humanListBuilder;
 
     public HumanBuilder() {
+    }
+
+    public HumanBuilder(HumanListBuilder humanListBuilder) {
+        this.humanListBuilder = humanListBuilder;
     }
 
     @Override
@@ -41,5 +48,11 @@ public class HumanBuilder implements Builder {
     @Override
     public Human build() {
         return new Human(name, age, weight, gender, race);
+    }
+
+    public HumanListBuilder addHumanToTheList() {
+        Human human = build();
+        this.humanListBuilder.addHuman(human);
+        return this.humanListBuilder;
     }
 }

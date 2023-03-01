@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 /**
  * @author sofiyan
  */
@@ -29,5 +31,16 @@ public class Main {
                 .setName("Arjun")
                 .setGender("Male")
                 .build();
+
+
+        ArrayList listOfHumans1 = new HumanListBuilder().createList()
+                .addHuman(human1)
+                .addHuman(human2)
+                .getListOfHumans();
+
+        ArrayList listOfHumans2 = new HumanListBuilder().createList()
+                .addHuman().setName("Shrey").setAge(25).addHumanToTheList()
+                .addHuman().setName("Deepak").setGender("Male").setWeight(81).addHumanToTheList()
+                .getListOfHumans();
     }
 }
