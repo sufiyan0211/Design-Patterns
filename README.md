@@ -18,3 +18,10 @@ This Repository is created for learning Design Patterns in Java.
 
 ### Prototype Pattern
 * Creates new objects by clonning an existing object, rather than creating a new instance from scratch.
+
+## Structural Design Pattern
+### Adpater Pattern
+* convert the interface of a class to another interface that clients expects.
+
+### Bridge Pattern
+* Decouple an abstraction from its implementation so that the two can vary independently.
