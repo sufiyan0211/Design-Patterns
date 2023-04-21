@@ -25,3 +25,8 @@ This Repository is created for learning Design Patterns in Java.
 
 ### Bridge Pattern
 * Decouple an abstraction from its implementation so that the two can vary independently.
+
+
+## Behavioural Design Pattern
+### Observer Pattern
+* Notify multiple objects when the state of another object changes.
