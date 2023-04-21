@@ -15,3 +15,6 @@ This Repository is created for learning Design Patterns in Java.
 
 ### Bridge Pattern
 * Decouples an abstraction from its implementation, so that the two can vary independently.
+
+### Prototype Pattern
+* Creates new objects by clonning an existing object, rather than creating a new instance from scratch.
