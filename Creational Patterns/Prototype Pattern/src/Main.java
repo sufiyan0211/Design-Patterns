@@ -35,5 +35,10 @@ public class Main {
         System.out.println("hashCode for twoWheeler's object: "+ twoWheeler.hashCode());
         System.out.println("hashCode for fourWheeler's object: "+ fourWheeler.hashCode());
 
+
+        System.out.println("\n\n\n");
+        System.out.println("hashCode for twoWheeler's engine object: "+ twoWheeler.getEngine().hashCode());
+        System.out.println("hashCode for fourWheeler's engine object: "+ fourWheeler.getEngine().hashCode());
+
     }
 }
